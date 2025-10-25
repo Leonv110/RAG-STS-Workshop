@@ -10,9 +10,6 @@
 - **Chunking:** Used `chunk_size=400` and `chunk_overlap=50`. This was found to be more effective for maintaining the coherence of dense academic definitions and arguments in the lecture format.
 - **Retrieval:** Switched to a more diverse MMR setting: `k=5`, `fetch_k=10`, and `lambda_mult=0.3`. This improved answers to complex, multi-faceted STS questions by ensuring a broader range of contextual chunks was retrieved.
 
-## How to run:
-1. Install requirements: `pip install -r requirements.txt`
-2. Run: `python your_rag_file.py`
 
 ## Test questions:
 1. Beyond economic costs and environmental risks, what is the less appreciated hazard of plutonium recycling and how is it justified by proponents?
