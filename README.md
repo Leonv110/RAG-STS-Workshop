@@ -1,2 +1,3 @@
 # RAG-STS-Workshop
-RAG system for the RAG workshop
+Building a RAG system for the domain Science, Technology and Society. 
+
